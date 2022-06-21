@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViTriActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/lv_viTri"
+        android:divider="@color/white"
+        android:dividerHeight="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên vị trí vào đây"
+        android:id="@+id/edt_name"
+        android:layout_marginVertical="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mô tả vào đây"
+        android:id="@+id/edt_des"
+        android:layout_marginVertical="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm vị trí"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_themViTri"
+        />
+</LinearLayout>
